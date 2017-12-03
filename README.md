@@ -27,6 +27,8 @@ This project uses Socket.io to create a real-time polling app which displays liv
 ---
 
 ## Try it out!
+#### Go to https://audience-poll.herokuapp.com (I will change this)
+### **or**
 ###### In your console(make sure you have git and nodejs installed on your computer)
 
 Clone the Repo be typing- `git clone https://github.com/OojAmit/audiencePoll.git`  
