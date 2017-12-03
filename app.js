@@ -1,7 +1,7 @@
 const express = require('express');
 const socket = require('socket.io');
 
-const port = 10000;
+const port = process.env.PORT || 10000;
 
 var app = express();
 
