@@ -8,10 +8,6 @@ var app = express();
 app.use(express.static('public'));
 
 
-app.get('/*', function(req, res) {
-  res.sendFile(__dirname + '/public/HTML/index.html');
-});
-
 var server = app.listen(port, function() {
   console.log(`Listening at port ${port}`);
 });
@@ -20,7 +16,6 @@ var io = socket(server);
 
 
 var a = b = c = d = total = counter = 0;
-
 
 io.on('connection', function(socket) {
   counter++;
